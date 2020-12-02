@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <meta name="description" content="{{ config.description }}">
+
+    <link rel="stylesheet" href="{{ get_url(path="css/bulma.min.css", trailing_slash=false) }}">
+    <link rel="stylesheet" href="{{ get_url(path="css/main.css", trailing_slash=false) }}">
+</head>
+
+<body>
+
+    {% block content %}
+
+    <section class="hero is-fullheight">
+        <div class="hero-head"></div>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">{{ config.title }}</h1>
+                <h3 class="subtitle">by Cole Graber-Mitchell</h3>
+                <br />
+                <br />
+                <br />
+                <div class="scroll-prompt">
+                    <p>Scroll down</p>
+                    <p>▼</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-foot"></div>
+    </section>
+
+    <section class="hero is-large">
+        <div class="hero-body">
+
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h1 class="title" id="index-beginning">{{ section.title }}</h1>
+            {% if section.description %}
+            <p class="subtitle">{{ section.description }}</p>
+            {% endif %}
+            <div class="content">
+                {{ section.content | safe }}
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-medium">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title"><a href="{{ get_url(path="sections", trailing_slash=true) }}">Explore the project ➞</a></h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-medium">
+        <div class="hero-body">
+        </div>
+    </section>
+
+    {% endblock content %}
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+            <strong>{{ config.title }}</strong> by Cole Graber-Mitchell. Copyright 2020.
+            </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="{{ get_url(path="js/main.js", trailing_slash=false) }}"></script>
+
+</body>
+</html>

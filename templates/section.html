@@ -1,0 +1,68 @@
+{% extends "index.html" %}
+
+{% block title %}{{ section.title }} in {{ config.title}}{% endblock %}
+
+{% block content %}
+
+<nav class="navbar">
+    <div class="container is-max-desktop">
+        <div class="navbar-brand">
+            <p id="brand" class="navbar-item is-size-5 has-text-weight-semibold is-italic">{{ config.title }}</p>
+
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+
+                <a class="navbar-item" href="{{ get_url(path="") }}">
+                    Back to the beginning
+                </a>
+
+                {% set sections_list = get_section(path="sections/_index.md") %}
+                <a class="navbar-item {% if current_path == sections_list.path %} is-active {% endif %}" href="{{ sections_list.permalink }}">
+                    Sections
+                </a>
+
+                {% set about = get_page(path="about.md") %}
+                <a class="navbar-item {% if current_path == about.path %} is-active {% endif %}" href="{{ about.permalink }}">
+                    About
+                </a>
+
+                {% set bib = get_page(path="bibliography.md") %}
+                <a class="navbar-item {% if current_path == bib.path %} is-active {% endif %}" href="{{ bib.permalink }}">
+                    Bibliography
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="section is-medium">
+    <div class="container is-max-desktop">
+        <h1 class="title">
+            {% block hero_title %}{{ section.title }}{% endblock hero_title %}
+        </h1>
+
+        {% block hero_subtitle %}
+            {% if section.description %}
+                <h2 class="subtitle">
+                    {{ section.description }}
+                </h2>
+            {% endif %}
+        {% endblock hero_subtitle %}
+        <div class="content">
+            {% block inner %}
+
+            {{ section.content | safe }}
+
+            {% endblock inner %}
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %}

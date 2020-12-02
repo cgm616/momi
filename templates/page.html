@@ -1,0 +1,19 @@
+{% extends "section.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+
+{% block hero_title %}{{ page.title }}{% endblock hero_title %}
+
+{% block hero_subtitle %}
+    {% if page.description %}
+        <h2 class="subtitle">
+            {{ page.description }}
+        </h2>
+    {% endif %}
+{% endblock hero_subtitle %}
+
+{% block inner %}
+
+{{ page.content | safe }}
+
+{% endblock inner %}

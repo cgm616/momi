@@ -1,8 +1,12 @@
 # The URL the site will be built for
 base_url = "https://momi.cgm616.me"
 
+# The site title and description; used in feeds by default.
+title = "What's in a Jew?"
+description = ""
+
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
+compile_sass = false
 
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
