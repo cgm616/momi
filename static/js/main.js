@@ -23,4 +23,46 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    const links = document.querySelectorAll('a');
+    processLinks(links);
 });
+
+function processLinks(links) {
+    links.forEach(link => {
+        if (link.hostname === window.location.hostname && link.id !== "entrance") {
+            link.addEventListener('click', (ev) => {
+                ev.preventDefault();
+
+                replacePage(link);
+            })
+        }
+    })
+}
+
+async function replacePage(link) {
+    let resp = await fetch(link.href);
+    let html = await resp.text();
+
+    var parser = new DOMParser();
+    var newDoc = parser.parseFromString(html, "text/html");
+
+    var newRoot = newDoc.getElementById("root");
+    var root = document.getElementById("root");
+
+    root.classList.toggle("fade");
+    await sleep(1000);
+
+    console.log(newRoot);
+
+    root.innerHTML = newRoot.innerHTML;
+    var links = root.querySelectorAll('a');
+    processLinks(links);
+
+    history.pushState(null, newDoc.title, link.pathname);
+
+    root.classList.toggle("fade");
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms))
+}

@@ -1,3 +1,4 @@
+{% import "macros/tiles.html" as macros %}
 {% extends "index.html" %}
 
 {% block title %}{{ section.title }} in {{ config.title}}{% endblock %}
@@ -18,7 +19,7 @@
         <div id="navbarMenuHeroA" class="navbar-menu">
             <div class="navbar-end">
 
-                <a class="navbar-item" href="{{ get_url(path="") }}">
+                <a class="navbar-item" href="{{ get_url(path="") }}" id="entrance">
                     Back to the beginning
                 </a>
 
@@ -41,15 +42,15 @@
     </div>
 </nav>
 
-<section class="section is-medium">
+<section class="section">
     <div class="container is-max-desktop">
-        <h1 class="title">
+        <h1 class="title is-1">
             {% block hero_title %}{{ section.title }}{% endblock hero_title %}
         </h1>
 
         {% block hero_subtitle %}
             {% if section.description %}
-                <h2 class="subtitle">
+                <h2 class="subtitle is-3">
                     {{ section.description }}
                 </h2>
             {% endif %}
@@ -65,4 +66,84 @@
 </section>
 
 
+{% if current_path == sections_list.path %} 
+<section class="section">
+    <div class="container is-max-desktop">
+        <div class="columns">
+            <div class="column">
+                 {{ macros::tiles(pages = sections_list.pages, modulus=0, columns=3) }}
+            </div>
+            <div class="column">
+                {{ macros::tiles(pages = sections_list.pages, modulus=1, columns=3) }}
+            </div>
+            <div class="column">
+                {{ macros::tiles(pages = sections_list.pages, modulus=2, columns=3) }}
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
 {% endblock content %}
+
+
+
+{% block audio %}
+
+<nav class="navbar is-dark is-fixed-bottom" id="audio-player">
+    <div class="container is-max-desktop">
+        <div class="navbar-brand" style="flex-grow: 1; justify-content: center;">
+            <!--<div class="navbar-item">
+                <button class="button is-light">
+                    <span class="icon">⏪</span>
+                </button>
+            </div>
+
+            <div class="navbar-item">
+                <button class="button is-light" id="play-button">
+                    <span class="icon">▶</span>
+                </button>
+            </div>
+
+            <div class="navbar-item">
+                <div id="audio-info" class="tag is-dark">1:12:03</div>
+            </div>
+
+            <div class="navbar-item is-expanded">
+                <input type="range" min="0" max="100000" value="0" id="audio-track">
+            </div>
+
+            <div class="navbar-item">
+                <button class="button is-light">
+                    <span class="icon">⏩</span>
+                </button>
+            </div>-->
+
+            <div class="navbar-item">
+                <div class="field has-addons">
+                    <div class="control">
+                        <button class="button is-static">Listening to</button>
+                    </div>
+                    <div class="control">
+                        <div class="select">
+                            <select>
+                                <option>Lara</option>
+                                <option>Ellen</option>
+                                <option>Gabe</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-item is-expanded">
+                <audio style="width: 100%;"
+                    controls
+                    src="/media/cc0-audio/t-rex-roar.mp3">
+                </audio>
+            </div>
+        </div>
+    </div>
+</nav>
+
+{% endblock audio %}

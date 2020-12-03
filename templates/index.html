@@ -14,6 +14,8 @@
 
 <body>
 
+    <div id="root">
+
     {% block content %}
 
     <section class="hero is-fullheight">
@@ -22,16 +24,17 @@
             <div class="container has-text-centered">
                 <h1 class="title">{{ config.title }}</h1>
                 <h3 class="subtitle">by Cole Graber-Mitchell</h3>
-                <br />
-                <br />
-                <br />
+            </div>
+        </div>
+        <div class="hero-foot">
+            <div class="container has-text-centered">
                 <div class="scroll-prompt">
                     <p>Scroll down</p>
                     <p>▼</p>
+                    <br />
                 </div>
             </div>
         </div>
-        <div class="hero-foot"></div>
     </section>
 
     <section class="hero is-large">
@@ -42,9 +45,9 @@
 
     <section class="section">
         <div class="container is-max-desktop">
-            <h1 class="title" id="index-beginning">{{ section.title }}</h1>
+            <h1 class="title is-2" id="index-beginning">{{ section.title }}</h1>
             {% if section.description %}
-            <p class="subtitle">{{ section.description }}</p>
+            <p class="subtitle is-4">{{ section.description }}</p>
             {% endif %}
             <div class="content">
                 {{ section.content | safe }}
@@ -52,10 +55,10 @@
         </div>
     </section>
 
-    <section class="hero is-medium">
+    <section class="hero is-large">
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="title"><a href="{{ get_url(path="sections", trailing_slash=true) }}">Explore the project ➞</a></h1>
+                <h1 class="title"><a href="{{ get_url(path="sections", trailing_slash=true) }}" id="entrance">Explore the project ➞</a></h1>
             </div>
         </div>
     </section>
@@ -72,8 +75,15 @@
             <p>
             <strong>{{ config.title }}</strong> by Cole Graber-Mitchell. Copyright 2020.
             </p>
+            <p>Made for <em>Model Minorities</em>, an Amherst College course taught by Professors Wendy Bergoffen and Franklin Odo.</p>
         </div>
     </footer>
+    
+    </div>
+
+    {% block audio %}
+
+    {% endblock audio %}
 
     <script type="text/javascript" src="{{ get_url(path="js/main.js", trailing_slash=false) }}"></script>
 
