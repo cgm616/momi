@@ -14,7 +14,7 @@ When two interviewees shared a certain type of experience — such as getting ma
 
 If you need a reason to stay, consider the following testimonial:
 
-{% quote(name="Ellen", millis=6505470) %}
+{% quote(name="Ellen", millis=6505200, anchor=6505470) %}
     What a cool thing, Coley!
 {% end %}
 

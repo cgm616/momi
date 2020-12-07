@@ -14,6 +14,6 @@
     {% endif %}
     {% set hours_str = hours | round(method="floor") | as_str %}
     <p>{{ body }}</p>
-    <p>― <a href="/transcripts/{{ name | lower }}/{% if anchor %} #{{ anchor }} {% endif %}">{{ name }}</a>, <em class="timestamp" millis="{{ millis }}" person="{{ name | lower }}">{{"(" ~ hours_str ~ ":" ~ minutes_str ~ 
+    <p>― <a href="/transcripts/{{ name | lower }}/{% if anchor %}#{{ anchor | as_str }}{% endif %}">{{ name }}</a>, <em class="timestamp" millis="{{ millis }}" person="{{ name | lower }}">{{"(" ~ hours_str ~ ":" ~ minutes_str ~ 
         ":" ~ seconds_str ~ ")"}}</em></p>
 </blockquote>
