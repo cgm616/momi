@@ -18,7 +18,7 @@ jobs:
     - name: Build
       run: |
         yarn install
-        make build
+        make javascript
       
     - name: shalzz/zola-deploy-action
       uses: shalzz/zola-deploy-action@v0.12.0
