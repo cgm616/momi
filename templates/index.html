@@ -8,8 +8,8 @@
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
     <meta name="description" content="{{ config.description }}">
 
-    <link rel="stylesheet" href="{{ get_url(path="css/bulma.min.css", trailing_slash=false) }}">
-    <link rel="stylesheet" href="{{ get_url(path="css/main.css", trailing_slash=false) }}">
+    <link rel="stylesheet" href="{{ get_url(path="css/bulma.min.css", trailing_slash=false) | safe }}">
+    <link rel="stylesheet" href="{{ get_url(path="css/main.css", trailing_slash=false) | safe }}">
 </head>
 
 <body>
@@ -85,7 +85,7 @@
 
     {% endblock audio %}
 
-    <script type="text/javascript" src="{{ get_url(path="js/bundle.js", trailing_slash=false) }}"></script>
+    <script type="text/javascript" src="{{ get_url(path="js/bundle.js", trailing_slash=false) | safe }}"></script>
 
 </body>
 </html>
