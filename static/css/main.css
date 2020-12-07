@@ -87,3 +87,27 @@ audio {
 #root.fade {
     opacity: 0;
 }
+
+footer .content {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.timestamp {
+    background: #dbdbdb;
+    margin-left: 1rem;
+    padding: 0.2rem;
+    font-size: 0.7rem;
+    border-radius: 0.35rem;
+    cursor: pointer;
+    float: right;
+}
+
+.timestamp:hover {
+    background: #d1d1d1;
+}
+
+blockquote .timestamp {
+    float: none;
+    margin-left: 0px;
+}

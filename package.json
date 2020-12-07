@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "bulma": "^0.9.1"
+    "bulma": "^0.9.1",
+    "subtitle": "^4.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "npx": "^10.2.2",
+    "tinyify": "^3.0.0"
   }
 }

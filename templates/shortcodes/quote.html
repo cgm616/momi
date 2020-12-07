@@ -1,0 +1,19 @@
+<blockquote class="transcript">
+    {% set seconds = millis / 1000 %}
+    {% set minutes = seconds / 60 %}
+    {% set hours = minutes / 60 %}
+    {% set seconds = seconds | round(method="floor") % 60 %}
+    {% set minutes = minutes | round(method="floor") % 60 %}
+    {% set seconds_str = seconds | round(method="floor") | as_str %}
+    {% if seconds < 10 %}
+        {% set seconds_str = "0" ~ seconds_str %}
+    {% endif %}
+    {% set minutes_str = minutes | round(method="floor") | as_str %}
+    {% if minutes < 10 %}
+        {% set minutes_str = "0" ~ minutes_str %}
+    {% endif %}
+    {% set hours_str = hours | round(method="floor") | as_str %}
+    <p>{{ body }}</p>
+    <p>― <a href="/transcripts/{{ name | lower }}/{% if anchor %} #{{ anchor }} {% endif %}">{{ name }}</a>, <em class="timestamp" millis="{{ millis }}" person="{{ name | lower }}">{{"(" ~ hours_str ~ ":" ~ minutes_str ~ 
+        ":" ~ seconds_str ~ ")"}}</em></p>
+</blockquote>

@@ -1,0 +1,138 @@
+{% macro tiles(pages, modulus=0, columns=3) %}
+    {% for page in pages %}
+        {% set modified = loop.index - modulus - 1 %}
+        {% if modified is divisibleby(columns) %}
+            <a href="{{ page.permalink }}" class="box section-tile">
+                <span class="tag marker is-dark is-pulled-right">Visited</span>
+                <h1 class="title">{{ page.title }}</h1>
+                {% if page.description %}
+                <h3 class="subtitle">{{ page.description }}</h3>
+                {% endif %}
+            </a>
+        {% endif %}
+    {% endfor %}
+{% endmacro tiles %}
+
+{% macro nav(current_path, brand) %}
+    <nav class="navbar">
+        <div class="container is-max-desktop">
+            <div class="navbar-brand">
+                <p id="brand" class="navbar-item is-size-5 has-text-weight-semibold is-italic">{{ brand }}</p>
+
+                <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-end">
+
+                    <a class="navbar-item" href="{{ get_url(path="") }}" id="entrance">
+                        Back to the beginning
+                    </a>
+
+                    {% set about = get_page(path="about.md") %}
+                    <a class="navbar-item {% if current_path == about.path %} is-active {% endif %}" href="{{ about.permalink }}">
+                        About
+                    </a>
+
+                    {% set sections_list = get_section(path="sections/_index.md") %}
+                    <a class="navbar-item {% if current_path == sections_list.path %} is-active {% endif %}" href="{{ sections_list.permalink }}">
+                        Sections
+                    </a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        {% set transcripts = get_section(path="transcripts/_index.md") %}
+                        <a class="navbar-link {% if current_path == transcripts.path %} is-active {% endif %}" href="{{ transcripts.permalink }}">
+                            Transcripts
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            {% set lara = get_page(path="transcripts/lara.md") %}
+                            <a class="navbar-item {% if current_path == lara.path %} is-active {% endif %}" href="{{ lara.permalink }}">
+                                Lara
+                            </a>
+
+                            {% set ellen = get_page(path="transcripts/ellen.md") %}
+                            <a class="navbar-item {% if current_path == ellen.path %} is-active {% endif %}" href="{{ ellen.permalink }}">
+                                Ellen
+                            </a>
+
+                            {% set gabe = get_page(path="transcripts/gabe.md") %}
+                            <a class="navbar-item {% if current_path == gabe.path %} is-active {% endif %}" href="{{ gabe.permalink }}">
+                                Gabe
+                            </a>
+                        </div>
+                    </div>
+
+                    {% set bib = get_page(path="bibliography.md") %}
+                    <a class="navbar-item {% if current_path == bib.path %} is-active {% endif %}" href="{{ bib.permalink }}">
+                        Bibliography
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+{% endmacro nav %}
+
+{% macro audio() %}
+    <nav class="navbar is-dark is-fixed-bottom" id="audio-player">
+        <div class="container is-max-desktop">
+            <div class="navbar-brand" style="flex-grow: 1; justify-content: center;">
+                <!--<div class="navbar-item">
+                    <button class="button is-light">
+                        <span class="icon">⏪</span>
+                    </button>
+                </div>
+
+                <div class="navbar-item">
+                    <button class="button is-light" id="play-button">
+                        <span class="icon">▶</span>
+                    </button>
+                </div>
+
+                <div class="navbar-item">
+                    <div id="audio-info" class="tag is-dark">1:12:03</div>
+                </div>
+
+                <div class="navbar-item is-expanded">
+                    <input type="range" min="0" max="100000" value="0" id="audio-track">
+                </div>
+
+                <div class="navbar-item">
+                    <button class="button is-light">
+                        <span class="icon">⏩</span>
+                    </button>
+                </div>-->
+
+                <div class="navbar-item">
+                    <div class="field has-addons">
+                        <div class="control">
+                            <button class="button is-static">Listening to</button>
+                        </div>
+                        <div class="control">
+                            <div class="select">
+                                <select id="audio-selector">
+                                    <option value="" selected>No one</option>
+                                    <option value="lara">Lara</option>
+                                    <option value="ellen">Ellen</option>
+                                    <option value="gabe">Gabe</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbar-item is-expanded">
+                    <audio style="width: 100%;" id="audio-controller" controls preload="auto">
+                    </audio>
+                </div>
+
+                <div class="navbar-item">
+                    <a class="button" id="goto-transcript">Go to transcript</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+{% endmacro audio %}
