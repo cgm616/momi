@@ -28,46 +28,46 @@
             <div id="navbarMenuHeroA" class="navbar-menu">
                 <div class="navbar-end">
 
-                    <a class="navbar-item" href="{{ get_url(path="") }}" id="entrance">
+                    <a class="navbar-item" href="{{ get_url(path="") | safe }}" id="entrance">
                         Back to the beginning
                     </a>
 
                     {% set about = get_page(path="about.md") %}
-                    <a class="navbar-item {% if current_path == about.path %} is-active {% endif %}" href="{{ about.permalink }}">
+                    <a class="navbar-item {% if current_path == about.path %} is-active {% endif %}" href="{{ about.permalink | safe }}">
                         About
                     </a>
 
                     {% set sections_list = get_section(path="sections/_index.md") %}
-                    <a class="navbar-item {% if current_path == sections_list.path %} is-active {% endif %}" href="{{ sections_list.permalink }}">
+                    <a class="navbar-item {% if current_path == sections_list.path %} is-active {% endif %}" href="{{ sections_list.permalink | safe }}">
                         Sections
                     </a>
 
                     <div class="navbar-item has-dropdown is-hoverable">
                         {% set transcripts = get_section(path="transcripts/_index.md") %}
-                        <a class="navbar-link {% if current_path == transcripts.path %} is-active {% endif %}" href="{{ transcripts.permalink }}">
+                        <a class="navbar-link {% if current_path == transcripts.path %} is-active {% endif %}" href="{{ transcripts.permalink | safe }}">
                             Transcripts
                         </a>
 
                         <div class="navbar-dropdown">
                             {% set lara = get_page(path="transcripts/lara.md") %}
-                            <a class="navbar-item {% if current_path == lara.path %} is-active {% endif %}" href="{{ lara.permalink }}">
+                            <a class="navbar-item {% if current_path == lara.path %} is-active {% endif %}" href="{{ lara.permalink | safe }}">
                                 Lara
                             </a>
 
                             {% set ellen = get_page(path="transcripts/ellen.md") %}
-                            <a class="navbar-item {% if current_path == ellen.path %} is-active {% endif %}" href="{{ ellen.permalink }}">
+                            <a class="navbar-item {% if current_path == ellen.path %} is-active {% endif %}" href="{{ ellen.permalink | safe }}">
                                 Ellen
                             </a>
 
                             {% set gabe = get_page(path="transcripts/gabe.md") %}
-                            <a class="navbar-item {% if current_path == gabe.path %} is-active {% endif %}" href="{{ gabe.permalink }}">
+                            <a class="navbar-item {% if current_path == gabe.path %} is-active {% endif %}" href="{{ gabe.permalink | safe }}">
                                 Gabe
                             </a>
                         </div>
                     </div>
 
                     {% set bib = get_page(path="bibliography.md") %}
-                    <a class="navbar-item {% if current_path == bib.path %} is-active {% endif %}" href="{{ bib.permalink }}">
+                    <a class="navbar-item {% if current_path == bib.path %} is-active {% endif %}" href="{{ bib.permalink | safe }}">
                         Bibliography
                     </a>
                 </div>

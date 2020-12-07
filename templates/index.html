@@ -58,7 +58,7 @@
     <section class="hero is-large">
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="title"><a href="{{ get_url(path="sections", trailing_slash=true) }}" id="entrance">Explore the project ➞</a></h1>
+                <h1 class="title"><a href="{{ get_url(path="sections", trailing_slash=true) | safe }}" id="entrance">Explore the project ➞</a></h1>
             </div>
         </div>
     </section>
