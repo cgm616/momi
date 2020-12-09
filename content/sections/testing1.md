@@ -1,21 +1,21 @@
 +++
-title = "Testing 1"
+title = "Index page"
 description = ""
 +++
 
 # The sections I want to write about
 
-- intermarriage
-- raising Jewish children
-- going to synagogue
-- feelings towards Judaism
-- What is a Jew?
-- Jewish friends, family, and coworkers
-- education and extracurriculars
-- success
-- working
-- anti-Semitism
-- model minority?
+- [x] intermarriage
+- [ ] raising Jewish children
+- [ ] going to synagogue
+- [ ] feelings towards Judaism
+- [ ] What is a Jew?
+- [ ] Jewish friends, family, and coworkers
+- [ ] education and extracurriculars
+- [ ] success
+- [ ] working
+- [ ] anti-Semitism
+- [ ] model minority?
 
 # Testing
 

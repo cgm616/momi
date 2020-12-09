@@ -111,3 +111,13 @@ blockquote .timestamp {
     float: none;
     margin-left: 0px;
 }
+
+.footnoteText {
+    margin-left: 0.3rem;
+    margin-top: -0.2rem;
+    margin-bottom: -0.2rem;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    padding-right: 0.2rem;
+    background: #dbdbdb;
+}

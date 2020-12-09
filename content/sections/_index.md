@@ -12,7 +12,7 @@ When two interviewees shared a certain type of experience — such as getting ma
 
 **There is no right or wrong way to explore the topics.** Feel free to skim a bunch or sit down with one for a longer read. When you move to a new page, your audio will continue to play without interruption.
 
-If you need a reason to stay, consider the following testimonial:
+If you need a reason to stay, consider the following testimonial (and try clicking the timestamp to hear Ellen say the quote):
 
 {% quote(name="Ellen", millis=6505200, anchor=6505470) %}
     What a cool thing, Coley!
