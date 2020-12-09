@@ -8,7 +8,7 @@ Gabe and Lara, accordingly, were the children of one Jew and one non-Jew.
 All three interviewees had specific experience with some or all of intermarriage, dating non-Jewish people, and growing up with only one Jewish parent.
 
 Commonly, intermarriage and other romantic relationships between non-Jews and Jewish people are regarded poorly by Jews.
-After a Pew Research Center survey found that rates of intermarriage were rising dramatically,{{ footnote(keys="PortraitJewishAmericans2013", pages="35-36") }} commentators like Jack Wertheimer and Steven Cohen wrote that "American Jews now stand on the precipice of a demographic cliff" caused in part by intermarriage.{{ footnote(keys="PortraitJewishAmericans2013") }}
+After a Pew Research Center survey found that rates of intermarriage were rising dramatically,{{ footnote(keys="PortraitJewishAmericans2013", pages="35-36") }} commentators like Jack Wertheimer and Steven Cohen wrote that "American Jews now stand on the precipice of a demographic cliff" caused in part by intermarriage.{{ footnote(keys="wertheimerPewSurveyReanalyzed2014") }}
 In their analysis, intermarriage eroded organized Jewish life by producing offspring who were insufficiently connected to Judaism.
 
 However, in the responses from my interviewees, children with only one Jewish parent felt a pull towards Judaism.

@@ -121,3 +121,12 @@ blockquote .timestamp {
     padding-right: 0.2rem;
     background: #dbdbdb;
 }
+
+.csl-entry:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.csl-entry {
+    padding-left: 2rem;
+    text-indent: -2rem;
+}
