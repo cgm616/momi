@@ -10,10 +10,9 @@ draft = true
 - [x] going to synagogue
 - [x] What is a Jew?
 - [ ] education and extracurriculars
-- [ ] success
 - [ ] working
-- [ ] anti-Semitism
-- [ ] model minority?
+- [x] anti-Semitism
+- [x] model minority?
 
 # Testing
 

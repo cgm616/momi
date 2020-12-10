@@ -173,6 +173,7 @@ async function replacePage(href, pathname, back) {
 
     root.classList.toggle("fade");
 
+    window.scrollTo(0, 0);
     var idx = href.indexOf("#");
     if (idx !== -1) {
         console.log(href);

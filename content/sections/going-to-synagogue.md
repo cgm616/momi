@@ -4,10 +4,9 @@ description = "and Judaism as a religion"
 +++
 
 All of my participants spoke about the religious quality of Judaism and Jewish identity, though each had different experiences with its religious parts.
-In some ways, their ideas of Judaism as a religion had a lot to do with constructing an ethnic identity as a member of a group, which I discuss more in the [page about Jewish identity](@/sections/identity.md) more generally.
-Ellen was the only one of the three to grow up going to synagogue and to have a bat/bar mitzvah, though Lara did briefly attend synagogue after her parents divorced.
+In some ways, their ideas of Judaism as a religion had a lot to do with constructing an ethnic identity as a member of a group, which I discuss more in the [page about Jewish identity](@/sections/identity.md).
+Ellen was the only one of the three to grow up going to synagogue and to have a bat/bar mitzvah, though Lara did briefly attend synagogue as a child after her parents divorced.
 
-Synagogue also meant more than simply religion to my interviewees.
 For Ellen, her childhood synagogue represented community. 
 
 {% quote(name="Ellen",millis=540050,anchor=540050) %}
@@ -37,14 +36,14 @@ And [the community of people I lived with] was kind of I guess my community. [..
 When she did go back, however, it was again for a sense of community.
 After a friend passed away from cancer, Ellen attended a funeral service and missed the "strong community support" that she felt there.
 Judaism, however, was not an obvious choice.
-After she attended a Quaker meeting and checking out Unitarianism, investigating where she could find religious community, Ellen found a small, interfaith synagogue in Hebron, a nearby town.
+After she attended a Quaker meeting and checked out Unitarianism, investigating where she could find religious community, Ellen found a small, interfaith synagogue in Hebron, a nearby town.
 She then began to bring Luke and Liz, her children with Gampy, to the synagogue.
 
 {% quote(name="Ellen",millis=2699550,anchor=2691550) %}
 And I was willing to make the effort to bring Luke there and— and Liz. And to get involved. And Gampy was willing to let me do it. You know, he felt like, yes, it would be really nice to give our kids something. Some faith that they can do what they want with, you know.
 {% end %}
 
-However, she felt like she should not and could not bring Gabe, who was around 16 or so at the time.
+However, she felt like she should not and could not bring Gabe, who was around 16 at the time.
 At that point, she felt like he was too old: "it wasn't like there was a Sunday school class for a 16 year old."
 Her relationship with Reid, Gabe's father, also made the prospect of bringing him daunting.
 Since Reid had custody of Gabe for many weekends, getting Reid to let Gabe go to synagogue on Saturdays "just seemed impossible" to Ellen.
@@ -53,7 +52,7 @@ However, she was unsure if she made the right decision, saying, "I don't know if
 
 Gabe wished that he had attended synagogue with Ellen when she resumed attending.
 He said that he regrets her decision to not bring him, though he did not blame her and understood why she made it.
-In fact, he said that some of the reasons she did not bring Gabe were some of the same reasons that he did not bring his children to synagogue.
+In fact, he said that some of the reasons she did not bring him were the same as some of the reasons that he did not bring his children to synagogue.
 
 {% quote(name="Gabe",millis=1823015,anchor=1749490) %}
 I regret her decision and my decision.
@@ -61,7 +60,7 @@ I regret her decision and my decision.
 
 He felt that he missed out on something core to Judaism as a kid by not attending synagogue.
 Since he was not raised Jewish, he did not learn the rituals and traditions associated with Judaism.
-He also felt like a part of his Jewish identity was lacking, since attending synagogue is "a shared experience that most Jews have" that he does not.
+He also felt like a part of his [Jewish identity](@/sections/identity.md) was lacking since attending synagogue is "a shared experience that most Jews have" that he does not.
 Retrospectively, he wished that he had experienced Judaism more fully much earlier in his life.
 
 In fact, Gabe explicitly compared Judaism with Christianity when talking about his regrets about attending synagogue.
@@ -75,7 +74,7 @@ He felt "very turned off by Christianity" in part because of the space between h
 I don't know. I think I saw a lot of— of— of— you know, the messages that you hear in— in Christianity in general, then not being exhibited by those that professed to believe these things. And so it just— to me, it felt very hypocritical and wasn't something that— that really resonated for me in the first place. And then— and then seeing it not practiced, almost intentionally, at times, just felt— just felt really off.
 {% end %}
 
-Similarly to Ellen, Gabe decided to attend synagogue later in his life after he got divorced.
+Just as Ellen resumed attending synagogue as an adult, Gabe decided to attend synagogue later after he got divorced.
 His decision stemmed partly from a desire to work out pain and sadness that he felt.
 Attending synagogue helped him figure out "where [he] was headed" and reflect on his life.
 Gabe also said that attending synagogue was part of rationalizing and figuring out who he was.
@@ -111,4 +110,4 @@ I wish that I had sought out Judaism in my own Jewish identity before now. Becau
 
 All three participants said that for them, the Jewish religion was a community that they either appreciated, wanted to be a part of, or were a part of. 
 All three also varied in their own connection to Judaism over time.
-When faced with practical, life considerations, they made decisions that altered the way they and their children related to Judaism.
+When faced with practical life considerations, they made decisions that altered the way they and their children related to Judaism.

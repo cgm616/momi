@@ -24,5 +24,6 @@ Then, I asked them about success, the model minority stereotype, and certain par
 After transcribing and analyzing these interviews, I compiled what they had to say about each topic alongside my own analysis in the coming pages.
 My family cannot and does not represent all Jews, nor do I claim they do.
 However, their life experiences are real and their Jewish identities are real.
-Though my interviews did not make everything clear immediately, they continue to help me understand my own Jewish identity.
+
+Though these interviews did not make everything clear immediately, they continue to help me understand my own Jewish identity.
 I hope they can help you do the same.

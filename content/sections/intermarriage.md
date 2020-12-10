@@ -7,14 +7,14 @@ Both Ellen and Gabe had children with and married people who were not Jewish, a 
 Gabe and Lara, accordingly, were the children of one Jew and one non-Jew.
 All three interviewees had specific experience with some or all of intermarriage, dating non-Jewish people, and growing up with only one Jewish parent.
 
-Commonly, intermarriage and other romantic relationships between non-Jews and Jewish people are regarded poorly by Jews.
+Intermarriage and other romantic relationships between non-Jews and Jewish people are often regarded poorly by Jewish commentators.
 After a Pew Research Center survey found that rates of intermarriage were rising dramatically,{{ footnote(keys="PortraitJewishAmericans2013", pages="35-36") }} commentators like Jack Wertheimer and Steven Cohen wrote that "American Jews now stand on the precipice of a demographic cliff" caused in part by intermarriage.{{ footnote(keys="wertheimerPewSurveyReanalyzed2014") }}
 In their analysis, intermarriage eroded organized Jewish life by producing offspring who were insufficiently connected to Judaism.
-Back in 1956, Herbert Gans similarly wrote that intermarriage was "one of the most effective disintegrating forces in any society."{{ footnote(keys="gansAmericanJewryPresent1956",paages="425") }}
+Back in 1956, Herbert Gans similarly wrote that intermarriage was "one of the most effective disintegrating forces in any society."{{ footnote(keys="gansAmericanJewryPresent1956",pages="425") }}
 
 However, in the responses from my interviewees, children with only one Jewish parent felt a pull towards Judaism.
 Both Gabe and Lara, though they did not attend synagogue, have bar/bat mitzvahs, or attend specifically Jewish educational services as children, desired to learn more about Judaism and keenly identified as Jewish people.
-Meanwhile, my only interviewee who did do all three of those things during their childhood, Ellen, became less attached to any Jewish community for the bulk of her life, choosing instead to make community elsewhere.
+Meanwhile, my only interviewee who did all three of those things during her childhood, Ellen, became less attached to any Jewish community for the bulk of her life, choosing instead to make community elsewhere.
 
 # Family attitudes towards romantic relationships with non-Jews
 
@@ -25,8 +25,7 @@ Well, I— I lived with this guy Jeff for a while. And my father told me he was 
 {% end %}
 
 In fact, Ellen's parents actually switched synagogues when she was a young teenager to help guide her towards Jewish boys.
-However, the switch backfired, ultimately turning Ellen off of Judaism as a whole until she was much later in her life.
-See the [page about synagogue](@/sections/going-to-synagogue.md) for more details.
+However, the switch backfired, ultimately turning Ellen off of [religious Judaism](@/sections/going-to-synagogue.md) as a whole until much later in her life.
 
 {% quote(name="Ellen", millis=668000, anchor=661490) %}
 So he would not— he did not want me to date people— boys that weren't Jewish. That was a big deal. So they moved to this other synagogue that was reformed, and I absolutely hated it and refused to go to it. So that was kind of it for me with synagogue until much later in my life when I was with Gampy.
@@ -41,7 +40,7 @@ So, it was— I don't know that [non-Jewish significant others] was ever even a 
 {% end %}
 
 Like Gabe, Lara felt no pressure from her family to only date Jewish people or to only ever marry someone who is Jewish.
-In fact, Lara actively rejected stigmas against intermarriage, seeing it was just another way to divide society.
+In fact, Lara actively rejected stigmas against intermarriage, saying that it was just another way to divide society.
 She remarked that children of a Jew and a non-Jew might even benefit from their dual heritage by having a foot in the door for learning about multiple cultures.
 
 {% quote(name="Lara", millis=5102550, anchor=5102550) %}

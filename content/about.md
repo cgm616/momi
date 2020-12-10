@@ -15,9 +15,11 @@ I eventually settled on an oral history to answer my own, personal questions: wh
 Who were my family members, and what are their stories?
 Truth be told, I did not know much about the lives of my family members.
 Even my sister, the person with whom I have the most in common, surprised me with what she had to say.
-In between my questions about who these people who shared me genes were, I asked them how they thought about Judaism and how they viewed claims about Asian and Jewish Americans that draw on the model minority stereotype.
+In between my questions about who these people with whom I grew up were, I asked them how they thought about Judaism and how they viewed claims about Asian and Jewish Americans that draw on the model minority stereotype.
 
-Though some other projects in the class attempted to answer related questions with a more rigorous, varied methodology — for example, interviewing Jewish people in a certain group about their views of the model minority stereotype — my goal for this project was not to provide concrete answers to difficult sociological questions.
+Other projects in the class attempted to answer related questions with a more rigorous methodology — for example, questioning a certain, well-defined group of Jewish people about their views of the model minority stereotype.
+However, my goal for this project was different.
+I did not attempt to provide concrete answers to difficult sociological questions.
 Instead, my goal was to explore, see what I could find, and present what interested me.
 
 # Who are these people?
@@ -49,8 +51,8 @@ At any point in time in the future, they can request that I remove all or part o
 After ensuring that they knew what the project was, what participation entailed, and what control they had over their information, I asked them to sign an Informed Consent Form.
 
 Then, I sent each interviewee my set of pre-interview questions along with a request that they spend some time thinking about the questions.
-I did not ask them to write responses to the questions.
-Instead, the only goal in sending the questions was to make sure that my participants understood more clearly what types of things we would talk about and to prepare them.
+I did not ask them to write responses.
+Instead, I designed the questions to make sure that my participants understood clearly what types of things we would talk about and to prepare them.
 The pre-interview questions were:
 
 1. What was your experience growing up? Who were your parents, and what were they like?
@@ -70,10 +72,10 @@ For fleshing out my methodology, I made heavy use of Donald Ritchie's *Doing Ora
 # IRB approval
 
 Amherst College's Institutional Review Board (IRB) approved this project before it began.
-The approval letter and each participant's signed and completed Informed Consent Form are on file with me.
+The approval letter and each participant's signed Informed Consent Form are on file with me.
 
 # Acknowledgements
 
 I thank my participants, Lara, Gabe, and Ellen, for their time and support while completing this project.
 I also thank my professors, Wendy Bergoffen and Franklin Odo, for their aid and ideas.
-Last, I thank Rebecca Novick, a classmate in *Model Minorities*, for helping me find useful articles while completing this project.
+Last, I thank Rebecca Novick, a classmate in *Model Minorities*, for helping me with my research.

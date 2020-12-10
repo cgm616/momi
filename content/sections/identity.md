@@ -4,17 +4,17 @@ description = "Jewish identity and its parts"
 +++
 
 Two of my interviewees expressed that Jewish identity consisted of more than [religion](@/sections/going-to-synagogue.md), but varied in the strength of their convictions.
-The third, Ellen, was insistent on a the solely religious Judaism.
-However, all three described Jewish identity in an *unstable* manner.
+The third, Ellen, was insistent that Judaism was solely religious, but revealed contrasting opinions later on in our interview.
+In fact, all three described Jewish identity in an *unstable* manner.
 By this, I mean that they often expressed a lack of certain knowledge, allowed for other understandings of Jewishness than their own, and seemed stuck between multiple ideas of Jewish identity.
 Note carefully that I do not mean to say that their understandings of Jewish identity were wrong or somehow bad.
-Instead, I only seek to highlight that they expressed insecurity and uncertainty about the ways Jewishness exists in the same manner that Judaism has long escaped an easy definition.{{ footnote(keys="gonzalez-lesserJewishnessSuiGeneris2020") }}
+Instead, I only seek to highlight that they expressed insecurity and uncertainty about the ways Jewishness exists, following in the well-traveled path of other thinkers who have struggled to define Judaism.{{ footnote(keys="gonzalez-lesserJewishnessSuiGeneris2020") }}
 
 The most dogmatic understanding of Jewish identity was Ellen's.
 Numerous times through our interview, she said emphatically that "Judaism is a religion."
 For Ellen, Judaism is not a "nationality" or "race."
 Key to her understanding was that there are many different Jews, and that anyone who wanted to could become Jewish.
-This assertion perhaps harks back to her own search for religious community as an adult: she was able to choose Judaism as much as she could have chosen to be a Quaker or Unitarian Universalist.
+This assertion perhaps harks back to her own [search for religious community](@/sections/going-to-synagogue.md) as an adult: she was able to choose Judaism as much as she could have chosen to be a Quaker or Unitarian Universalist.
 In particular, she draws a distinction between the categories of 'Jewish American' and 'Asian American.'
 
 {% quote(name="Ellen",millis=5935000,anchor=5798750) %}
@@ -22,8 +22,8 @@ I mean, Jewish is a religion. You know, it's not— like if you say Asian Americ
 {% end %}
 
 Considering the post-World War 2 shift away from racial characterizations of Judaism, Ellen's insistence that Judaism is a religion is unsurprising.{{ footnote(keys="glennBloodConsentDescent2002",pages="146") }}
-However, modern day DNA tests through a wrench into that conception of Judaism by claiming that somehow, Jewishness is in our cells.
-Ellen pushed back against the logic of DNA tests, which she had taken and which said that she was Jewish.
+However, modern day DNA tests throw a wrench into that conception of Judaism by claiming that somehow, our very cells are Jewish.
+Ellen twice pushed back against the biological conception of Judaism found in DNA tests.
 
 {% quote(name="Ellen",millis=5961888,anchor=5798750) %}
 You know, it's— it's not a nationality, even though Ancestry.com [a DNA testing service] says it is, which is weird, I think.
@@ -32,13 +32,14 @@ You know, it's— it's not a nationality, even though Ancestry.com [a DNA testin
 Though she said "nationality," more common terms for what tests like Ancestry.com might reveal are (biologized) ethnicity, genetics, and heritage.
 When genetic tests reveal data like a person's percentage of "Ashkenazi DNA," they traffic in imprecision around what they mean, "sometimes conflating racial, ethnic, national, regional, or continental categories."{{ footnote(keys="foxJewishGeneticPotency2020",pages="69") }}
 However, in her choice of words, it's possible to discern another possible cause for Ellen's uncomfortability with non-religious understandings of Judaism.
-A common anti-Semitic trope is dual loyality: the idea that Jews are loyal to the Jewish nation, whatever that may be, rather than the nations in which they reside.
+A common anti-Semitic trope is dual loyalty: the idea that Jews are loyal to the Jewish nation, whatever that may be, rather than the nations in which they reside.
 Though genetic material cannot provide any information on nationality, particularly in racially and ethnically diverse places like the United States, Ellen's rejection of DNA tests is seemingly based on worries about what it means for Judaism to be a nationality. 
 
-Despite her own past, where she specifically chose to be religiously Jewish, and her insistence that Judaism is a religion, Ellen acknowledges that there is something more to Judaism.
+Despite her insistence that Judaism is a religion, Ellen acknowledged that there is something more to Judaism.
 In some ways, her own identity was like that of the second generation Jews outlined by Herbert Gans, who "could actually envisage no alternatives to being Jewish" and whose "Jewishness was similarly submerged and unconscious, entirely beyond the realm of choice."{{ footnote(keys="gansAmericanJewryPresent1956",pages="426") }}
-When asked if the fact that her parents were Jewish influenced her own Jewish identity, she said that it probably had, although not from the point of view of genetics, descent, or heritage.
-Instead, she used cultural terms to describe Judaism's attractiveness for her (though her words can be understand in both ethnic and religious lights).
+At one point, she said that she had never thought of herself as not Jewish, despite spending a long time without practicing Judaism as a religion.
+When asked if the fact that her parents were Jewish influenced her Jewish identity, she said that it probably had, although not from the point of view of genetics, descent, or heritage.
+Instead, she used cultural terms to describe Judaism's attractiveness.
 
 {% quote(name="Ellen",millis=4684000,anchor=4680800) %}
 I mean, [Judaism is] a shared set of values and tradition that I always felt was important to keep that thread. Whatever it was.
@@ -48,7 +49,7 @@ Ellen's conception of a "thread" through time connecting her to previous Jews br
 Later, when asked if Judaism is more than a religion, Ellen compared Jewish Americans to Italian Americans.
 While she qualified her statement by saying that most religions had cultures attached, she likened the feeling of being in a synagogue or around other Jewish people with the feeling of a Black person at a historically Black college or university.
 These comparisons suggest that Ellen's view of Judaism as solely a religion is not necessarily absolute.
-Instead, Judaism for Ellen might include conceptions of community, social life, and culture that transcend essentialized, Western ideas of religion.
+Instead, Judaism for Ellen might include conceptions of community, social life, and culture that transcend bare, Western ideas of religion as belief.
 
 On the other hand, Lara accepted the DNA test logic of Jewishness in the blood.
 In fact, she drew a comparison between Judaism and other "religions" because of Judaism's ethnic characteristics.
@@ -59,8 +60,8 @@ I also think that being Jewish, there is like a certain complexity to it that th
 {% end %}
 
 However, her belief in so-called "blood logic" is even more clear only a few sentences later.{{ footnote(keys="glennBloodConsentDescent2002") }}
-Lara's Jewish identity is an "absolute" truth, while her Jewish religiosity is less well-defined.
-Since Lara's ancestors are Jewish, she says that she is too.
+To Lara, her Jewish identity is an "absolute" truth while her Jewish religiosity is less well-defined.
+She said that since her ancestors are Jewish, she is too.
 According to her, she is Jewish at very least "in the way that" she is Scottish, and she is confident in that identity.
 In the future, despite her many questions about Judaism as a faith, she hopes to look into what it means to be religiously Jewish.
 
@@ -94,22 +95,22 @@ She traced Jews back to the Middle Ages, most likely referencing the period of t
 She then evoked the "resiliency" of Jews over hundreds of years of discrimination and violence and took pride in "standing the test of time."
 
 Like Lara, Gabe said that there is a religious Judaism in which he partakes less.
-He also said that he wish he had more access to the cultural parts of Judaism, which for him include bagels and lox, two traditional Ashkenazi foods.
+He also said that he wished he had more access to cultural Judaism, which he identified most with Ashkenazi cultural foods.
 
-Another marker of Judaism for Gabe was informal Jewish community, which neither Lara nor Ellen mentioned.
-Gabe enjoyed how being Jewish shapes his life even in spaces, like the workplace, that are not specifically Jewish.
+Another marker of Judaism for Gabe is informal Jewish community, which neither Lara nor Ellen mentioned.
+Gabe enjoyed how being Jewish shaped his life even in spaces, like the workplace, that are not specifically Jewish.
 For instance, he spoke about having Jewish friends at work who would exchange good wishes around Jewish holidays.
 Rather than Judaism-as-community in a formal sense, such as [attending synagogue](@/sections/going-to-synagogue.md), Gabe appreciated informal bonds in atypical places.
 
-All three participants responded that they were white when I asked, indicated that they did not think that Judaism is incompatible with whiteness.
+All three participants responded that they were white when I asked, indicating that they did not think of Judaism as incompatible with whiteness.
 In fact, Lara went so far as to say that she was the "white version of Jew," both implying the existence of Jews of color and categorically separating her race — white — from Judaism.
 Gabe perceived his own whiteness not as a part of his identity, but as a constructed label used by society — once again, categorically separate from how he viewed his Jewishness.
-Though was seen as white by others, he shared [experiences with anti-Semitism](@/sections/anti-semitism.md) that occurred solely because his Judaism was not something that others could perceive.
+Though he was seen as white by others, he shared [experiences with anti-Semitism](@/sections/anti-semitism.md) that occurred solely because his Judaism was not something that others could always perceive.
 
-In sum, Gabe, Ellen, and Lara described Judaism not as one thing, but as a mixture.
+In sum, Gabe, Ellen, and Lara described Judaism not as one thing, but as a mixture of many things.
 Ellen, though insistent on the religious makeup of Jewishness, described it with terms more commonly associated with ethnic belonging.
 Lara clearly distinguished ethnic Judaism from religious Judaism, claiming each in different ways.
-Finally, Gabe used ethnic stories, ideas of nationhood and family, and conceptions of religious culture and tradition to describe Judaism as a less differentiated, amalgamation of religion and ethnicity.
-Their responses map well to Emma Gonzalez-Lesser's ideas about Judaism as a combination of co-ordinated ideas of race, ethnicity, and religion, which she argues are not as separable as some sociologists have maintained.{{ footnote(keys="gonzalez-lesserJewishnessSuiGeneris2020") }}
+Finally, Gabe used ethnic stories, ideas of nationhood and family, and conceptions of religious culture and tradition to describe Judaism as a non-differentiated amalgamation of religion and ethnicity.
+Their responses map well to Emma Gonzalez-Lesser's ideas about Judaism as a combination of coordinated ideas of race, ethnicity, and religion, which she argues are not as separable as some sociologists have maintained.{{ footnote(keys="gonzalez-lesserJewishnessSuiGeneris2020") }}
 None of the three, despite the language they use, essentialize Judaism into any one thing.
 It is a complex, hard-to-understand part of each of them.
