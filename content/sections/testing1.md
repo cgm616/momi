@@ -6,9 +6,7 @@ description = ""
 # The sections I want to write about
 
 - [x] intermarriage
-- [ ] raising Jewish children
-- [ ] going to synagogue
-- [ ] feelings towards Judaism
+- [x] going to synagogue
 - [ ] What is a Jew?
 - [ ] Jewish friends, family, and coworkers
 - [ ] education and extracurriculars

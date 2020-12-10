@@ -31,16 +31,14 @@ Though I have said their names and their relationships to me throughout the proj
 
 [Lara](@/transcripts/lara.md), a 19-year-old college student at Northeastern University, is my sister.
 She was born to Gabe and Erica in Minnesota.
-One of her grandparents is Jewish.
 
 [Gabe](@/transcripts/gabe.md) is 45 years old and works for a large San Francisco software company from home in Minnesota.
 He was born to Ellen and Reid in Connecticut.
-Two of his grandparents are Jewish.
 
 [Ellen](@/transcripts/ellen.md) is 70 years old and recently retired from a second career as a nurse.
 She lives in Windham, Connecticut with her husband Kevin (also known as Gampy).
 Her parents are Alan and Sally.
-All four of her grandparents are Jewish, and some are immigrants.
+Some of her grandparents are immigrants; the others are the children of immigrants.
 
 # Methodology
 

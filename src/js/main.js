@@ -112,6 +112,7 @@ function updateFootnotes(footnotes) {
             entry: keys,
             format: 'html',
             template: 'chicago',
+            append: data["pages"],
         });
 
         container.innerHTML = linkify(cited);
@@ -171,6 +172,16 @@ async function replacePage(href, pathname, back) {
     await sleep(50)
 
     root.classList.toggle("fade");
+
+    var idx = href.indexOf("#");
+    if (idx !== -1) {
+        console.log(href);
+        var hash = href.substring(idx + 1);
+        console.log(hash);
+        console.log(document);
+        var hashElement = document.getElementById(hash);
+        hashElement.scrollIntoView();
+    }
 }
 
 function sleep(ms) {
@@ -224,10 +235,12 @@ async function renderFullTranscript(person, el) {
     var columns = document.createElement("div");
     columns.classList.value = "columns is-multiline";
 
+    const regex = /---/g;
+
     for (var node of nodes) {
         var parts = node.data.text.split(":");
         var name = parts[0].trim();
-        var text = parts[1].trim().replace(/---/g, "—");
+        var text = parts[1].trim().replace(regex, "—");
 
         var metaParent = document.createElement("div");
         metaParent.classList.value = "column is-2";

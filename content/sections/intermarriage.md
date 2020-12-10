@@ -10,6 +10,7 @@ All three interviewees had specific experience with some or all of intermarriage
 Commonly, intermarriage and other romantic relationships between non-Jews and Jewish people are regarded poorly by Jews.
 After a Pew Research Center survey found that rates of intermarriage were rising dramatically,{{ footnote(keys="PortraitJewishAmericans2013", pages="35-36") }} commentators like Jack Wertheimer and Steven Cohen wrote that "American Jews now stand on the precipice of a demographic cliff" caused in part by intermarriage.{{ footnote(keys="wertheimerPewSurveyReanalyzed2014") }}
 In their analysis, intermarriage eroded organized Jewish life by producing offspring who were insufficiently connected to Judaism.
+Back in 1956, Herbert Gans similarly wrote that intermarriage was "one of the most effective disintegrating forces in any society."{{ footnote(keys="gansAmericanJewryPresent1956",paages="425") }}
 
 However, in the responses from my interviewees, children with only one Jewish parent felt a pull towards Judaism.
 Both Gabe and Lara, though they did not attend synagogue, have bar/bat mitzvahs, or attend specifically Jewish educational services as children, desired to learn more about Judaism and keenly identified as Jewish people.
@@ -61,6 +62,12 @@ She also recognized that the question of patrilineal descent is "complicated" si
 [Being considered not a Jew because my mother isn't Jewish] doesn't really frustrate me. I've never had that used against me. People are— most of the time, people are just happy you're there.
 {% end %}
 
+However, she was conscious of the difficulties that having a non-Jewish mother might complicate joining a synagogue "fully," depending on the denomination. 
+
+{% quote(name="Lara",millis=1295065,anchor=1280520) %}
+I'd have to convert because our mother isn't Jewish. [...] But there are some synagogues that don't care, but most of the traditional synagogues care about your mother's heritage, and our father is our Jewish line.
+{% end %}
+
 Gabe had a non-Jewish father, and so is halakhically a Jew.
-He expressed no feelings of exclusion from Judaism as a result of his dad's Chistianity.
+He expressed no feelings of exclusion from Judaism as a result of his dad's Christianity.
 Rather, he felt that his connection with Judaism — both as a religion and as a culture — was looser because of his upbringing, similar to Lara's sentiment that she "could have been going to synagogue this entire time with zero issues."
