@@ -1,14 +1,14 @@
 +++
 title = "Index page"
 description = ""
+draft = true
 +++
 
 # The sections I want to write about
 
 - [x] intermarriage
 - [x] going to synagogue
-- [ ] What is a Jew?
-- [ ] Jewish friends, family, and coworkers
+- [x] What is a Jew?
 - [ ] education and extracurriculars
 - [ ] success
 - [ ] working

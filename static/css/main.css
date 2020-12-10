@@ -25,11 +25,13 @@
 }
 
 a.section-tile > .marker {
-    display: none;
+    color: #FFF;
+    background-color: #FFF;
 }
 
 a.section-tile:visited > .marker {
-    display: inline;
+    color: rgba(0,0,0,.7);
+    background-color: #f5f5f5;
 }
 
 #audio-track {

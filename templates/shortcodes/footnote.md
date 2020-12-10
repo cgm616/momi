@@ -1,1 +1,1 @@
-[^"keys":"{{ keys }}"{% if pages %}, "pages":"{{ pages }}"{% endif %}]<span class="footnoteText is-hidden"></span>
+[^"keys":"{{ keys }}"{% if pages %}, "pages":"{{ pages }}"{% endif %},"nonce":"{{ get_random(end=1000000) | as_str}}"]<span class="footnoteText is-hidden"></span>

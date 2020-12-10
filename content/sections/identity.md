@@ -44,7 +44,8 @@ Instead, she used cultural terms to describe Judaism's attractiveness for her (t
 I mean, [Judaism is] a shared set of values and tradition that I always felt was important to keep that thread. Whatever it was.
 {% end %}
 
-Later, however, when asked if Judaism is more than a religion, Ellen compared Jewish Americans to Italian Americans.
+Ellen's conception of a "thread" through time connecting her to previous Jews brings to mind ethnic characterizations rather than strictly religious ones.
+Later, when asked if Judaism is more than a religion, Ellen compared Jewish Americans to Italian Americans.
 While she qualified her statement by saying that most religions had cultures attached, she likened the feeling of being in a synagogue or around other Jewish people with the feeling of a Black person at a historically Black college or university.
 These comparisons suggest that Ellen's view of Judaism as solely a religion is not necessarily absolute.
 Instead, Judaism for Ellen might include conceptions of community, social life, and culture that transcend essentialized, Western ideas of religion.
@@ -82,12 +83,33 @@ For Gabe, being Jewish involves being part of "one family tree."
 He appreciates and enjoys how Judaism involves shared descent, though he does not exclude conversionary Jews from his definition of who is Jewish.
 In fact, Gabe celebrates the process and ritual of being and becoming a Jew — what you learn and experience is part of Jewish identity for him.
 
-Like Lara, Gabe says that there is a religious Judaism in which he partakes less.
-He also says that he wish he had more access to the cultural parts of Judaism, which for him include bagels and lox, traditional Ashkenazi foods.
+Gabe also evoked a shared ethnic narrative, or a story that helps define a group,{{ footnote(keys="cornellThatStoryOur2000") }} during a discussion of [enrollment quotas](@/sections/model-minority.md), remarking that the "Jewish people" — as a sort of nation or ethnic group — had overcome adversity and discrimination before.
 
-Another marker of Judaism for Gabe is informal Jewish community, which neither Lara nor Ellen mentioned.
-Gabe enjoys how being Jewish shapes his life even in spaces, like the workplace, that are not specifically Jewish.
+{% quote(name="Gabe",millis=6992202,anchor=6983680) %}
+Another aspect is, when you look at the resiliency of— of Jewish people. Of the Jewish people. Jews just went elsewhere. I mean, and it didn't necessarily impede the ability to succeed, obviously. So part of me is like, alright. I mean, kind of that, the old adage about, you know, every Jewish holiday is— is they came, they tried to kill us, let's eat.
+{% end %}
+
+Lara also deployed ethnic narratives when asked why she felt proud to be Jewish, which she had mentioned.
+She traced Jews back to the Middle Ages, most likely referencing the period of time when Ashkenazi Jews settled in Europe.
+She then evoked the "resiliency" of Jews over hundreds of years of discrimination and violence and took pride in "standing the test of time."
+
+Like Lara, Gabe said that there is a religious Judaism in which he partakes less.
+He also said that he wish he had more access to the cultural parts of Judaism, which for him include bagels and lox, two traditional Ashkenazi foods.
+
+Another marker of Judaism for Gabe was informal Jewish community, which neither Lara nor Ellen mentioned.
+Gabe enjoyed how being Jewish shapes his life even in spaces, like the workplace, that are not specifically Jewish.
 For instance, he spoke about having Jewish friends at work who would exchange good wishes around Jewish holidays.
 Rather than Judaism-as-community in a formal sense, such as [attending synagogue](@/sections/going-to-synagogue.md), Gabe appreciated informal bonds in atypical places.
 
-All three participants responded that they were white when I asked.
+All three participants responded that they were white when I asked, indicated that they did not think that Judaism is incompatible with whiteness.
+In fact, Lara went so far as to say that she was the "white version of Jew," both implying the existence of Jews of color and categorically separating her race — white — from Judaism.
+Gabe perceived his own whiteness not as a part of his identity, but as a constructed label used by society — once again, categorically separate from how he viewed his Jewishness.
+Though was seen as white by others, he shared [experiences with anti-Semitism](@/sections/anti-semitism.md) that occurred solely because his Judaism was not something that others could perceive.
+
+In sum, Gabe, Ellen, and Lara described Judaism not as one thing, but as a mixture.
+Ellen, though insistent on the religious makeup of Jewishness, described it with terms more commonly associated with ethnic belonging.
+Lara clearly distinguished ethnic Judaism from religious Judaism, claiming each in different ways.
+Finally, Gabe used ethnic stories, ideas of nationhood and family, and conceptions of religious culture and tradition to describe Judaism as a less differentiated, amalgamation of religion and ethnicity.
+Their responses map well to Emma Gonzalez-Lesser's ideas about Judaism as a combination of co-ordinated ideas of race, ethnicity, and religion, which she argues are not as separable as some sociologists have maintained.{{ footnote(keys="gonzalez-lesserJewishnessSuiGeneris2020") }}
+None of the three, despite the language they use, essentialize Judaism into any one thing.
+It is a complex, hard-to-understand part of each of them.

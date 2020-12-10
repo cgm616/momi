@@ -4,6 +4,7 @@ description = "and Judaism as a religion"
 +++
 
 All of my participants spoke about the religious quality of Judaism and Jewish identity, though each had different experiences with its religious parts.
+In some ways, their ideas of Judaism as a religion had a lot to do with constructing an ethnic identity as a member of a group, which I discuss more in the [page about Jewish identity](@/sections/identity.md) more generally.
 Ellen was the only one of the three to grow up going to synagogue and to have a bat/bar mitzvah, though Lara did briefly attend synagogue after her parents divorced.
 
 Synagogue also meant more than simply religion to my interviewees.
