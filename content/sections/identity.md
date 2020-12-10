@@ -6,7 +6,9 @@ description = "Jewish identity and its parts"
 Two of my interviewees expressed that Jewish identity consisted of more than [religion](@/sections/going-to-synagogue.md), but varied in the strength of their convictions.
 The third, Ellen, was insistent on a the solely religious Judaism.
 However, all three described Jewish identity in an *unstable* manner.
-By this, I mean that they often expressed a lack of knowledge, allowed for other understandings of Jewishness than their own, and seemed stuck between multiple ideas of Jewish identity.
+By this, I mean that they often expressed a lack of certain knowledge, allowed for other understandings of Jewishness than their own, and seemed stuck between multiple ideas of Jewish identity.
+Note carefully that I do not mean to say that their understandings of Jewish identity were wrong or somehow bad.
+Instead, I only seek to highlight that they expressed insecurity and uncertainty about the ways Jewishness exists in the same manner that Judaism has long escaped an easy definition.{{ footnote(keys="gonzalez-lesserJewishnessSuiGeneris2020") }}
 
 The most dogmatic understanding of Jewish identity was Ellen's.
 Numerous times through our interview, she said emphatically that "Judaism is a religion."
@@ -69,8 +71,23 @@ I also don't think that I knew I was Jewish in elementary school. But I knew it 
 
 Unlike Ellen, Lara firmly believes that Judaism is not simply a religion.
 Gabe agrees with Lara, though his characterizations are somewhat less specific.
+For Gabe, Judaism is a set of cultural practices along with ethnicity and religion.
+Shared life experiences make up a large part of what it means to be Jewish for him.
 
+{% quote(name="Gabe",millis=5698520,anchor=5698520) %}
+Like [when] we go to Passover, [...] I love the fact that there are millions of Jews doing that across the globe.
+{% end %}
 
+For Gabe, being Jewish involves being part of "one family tree."
+He appreciates and enjoys how Judaism involves shared descent, though he does not exclude conversionary Jews from his definition of who is Jewish.
+In fact, Gabe celebrates the process and ritual of being and becoming a Jew — what you learn and experience is part of Jewish identity for him.
 
+Like Lara, Gabe says that there is a religious Judaism in which he partakes less.
+He also says that he wish he had more access to the cultural parts of Judaism, which for him include bagels and lox, traditional Ashkenazi foods.
 
-- [ ] white identity
+Another marker of Judaism for Gabe is informal Jewish community, which neither Lara nor Ellen mentioned.
+Gabe enjoys how being Jewish shapes his life even in spaces, like the workplace, that are not specifically Jewish.
+For instance, he spoke about having Jewish friends at work who would exchange good wishes around Jewish holidays.
+Rather than Judaism-as-community in a formal sense, such as [attending synagogue](@/sections/going-to-synagogue.md), Gabe appreciated informal bonds in atypical places.
+
+All three participants responded that they were white when I asked.

@@ -24,7 +24,7 @@ Instead, my goal was to explore, see what I could find, and present what interes
 
 <figure class="image is-pulled-right" style="max-width: 40%; min-width: 300px; margin-top: 0px; display:block;">
   <img src="/image/tree.png" style="box-shadow: 2px 2px 10px 1px;">
-  <figcaption>A family tree.</figcaption>
+  <figcaption>A family tree. The people I interviewed are underlined in blue.</figcaption>
 </figure>
 
 Though I have said their names and their relationships to me throughout the project, I think I should clearly explain who Ellen, Gabe, and Lara are.
