@@ -1,6 +1,6 @@
 +++
 title = "Gabe"
-description = "A full transcript of his interview on November 13, 2020"
+description = "Gabe requested that his interview on November 13, 2020 be removed"
 template = "transcript.html"
 
 [extra]
