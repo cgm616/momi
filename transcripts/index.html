@@ -1,0 +1,196 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Interview transcripts | What is a Jew?</title>
+    <meta name="description" content="">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💬</text></svg>">
+
+    <link rel="stylesheet" href="https://momi.cgm616.me/css/bulma.min.css">
+    <link rel="stylesheet" href="https://momi.cgm616.me/css/main.css">
+</head>
+
+<body>
+
+    <div id="root">
+
+    
+
+
+    <nav class="navbar">
+        <div class="container is-max-desktop">
+            <div class="navbar-brand">
+                <p id="brand" class="navbar-item is-size-5 has-text-weight-semibold is-italic">What is a Jew?</p>
+
+                <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-end">
+
+                    <a class="navbar-item" href="https://momi.cgm616.me" id="entrance">
+                        Back to the beginning
+                    </a>
+
+                    
+                    <a class="navbar-item " href="https://momi.cgm616.me/about/">
+                        About
+                    </a>
+
+                    
+                    <a class="navbar-item " href="https://momi.cgm616.me/sections/">
+                        Sections
+                    </a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        
+                        <a class="navbar-link  is-active " href="https://momi.cgm616.me/transcripts/">
+                            Transcripts
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            
+                            <a class="navbar-item " href="https://momi.cgm616.me/transcripts/lara/">
+                                Lara
+                            </a>
+
+                            
+                            <a class="navbar-item " href="https://momi.cgm616.me/transcripts/ellen/">
+                                Ellen
+                            </a>
+
+                            
+                            <a class="navbar-item " href="https://momi.cgm616.me/transcripts/gabe/">
+                                Gabe
+                            </a>
+                        </div>
+                    </div>
+
+                    
+                    <a class="navbar-item " href="https://momi.cgm616.me/bibliography/">
+                        Bibliography
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <h1 class="title is-1">
+            Interview transcripts
+        </h1>
+
+        
+            
+        
+        <div class="content">
+            
+
+            <p>Each transcript is on its own page, which you can access through the navigation bar or the links below.
+In the transcripts, click the timestamp to immediately jump to that part of the audio.</p>
+<ul>
+<li><a href="https://momi.cgm616.me/transcripts/lara/">Lara's interview</a></li>
+<li><a href="https://momi.cgm616.me/transcripts/gabe/">Gabe's interview</a></li>
+<li><a href="https://momi.cgm616.me/transcripts/ellen/">Ellen's interview</a></li>
+</ul>
+
+
+            
+        </div>
+
+        
+        
+    </div>
+</section>
+
+
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+            <strong>What is a Jew?</strong> by Cole Graber-Mitchell. Copyright 2020 to 2020.
+            </p>
+            <p>Made for <em>Model Minorities</em>, an Amherst College course taught by <a href="https://www.amherst.edu/people/facstaff/wbergoffen">Professor Wendy Bergoffen</a> and <a href="https://www.amherst.edu/people/facstaff/fodo">Professor Franklin Odo.</a></p>
+        </div>
+    </footer>
+    
+    </div>
+
+    
+
+
+    <nav class="navbar is-dark is-fixed-bottom" id="audio-player">
+        <div class="container is-max-desktop">
+            <div class="navbar-brand" style="flex-grow: 1; justify-content: center;">
+                <!--<div class="navbar-item">
+                    <button class="button is-light">
+                        <span class="icon">⏪</span>
+                    </button>
+                </div>
+
+                <div class="navbar-item">
+                    <button class="button is-light" id="play-button">
+                        <span class="icon">▶</span>
+                    </button>
+                </div>
+
+                <div class="navbar-item">
+                    <div id="audio-info" class="tag is-dark">1:12:03</div>
+                </div>
+
+                <div class="navbar-item is-expanded">
+                    <input type="range" min="0" max="100000" value="0" id="audio-track">
+                </div>
+
+                <div class="navbar-item">
+                    <button class="button is-light">
+                        <span class="icon">⏩</span>
+                    </button>
+                </div>-->
+
+                <div class="navbar-item">
+                    <div class="field has-addons">
+                        <div class="control">
+                            <button class="button is-static">Listening to</button>
+                        </div>
+                        <div class="control">
+                            <div class="select">
+                                <select id="audio-selector">
+                                    <option value="" selected>No one</option>
+                                    <option value="lara">Lara</option>
+                                    <option value="ellen">Ellen</option>
+                                    <option value="gabe">Gabe</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbar-item is-expanded">
+                    <audio style="width: 100%;" id="audio-controller" controls preload="auto">
+                    </audio>
+                </div>
+
+                <div class="navbar-item">
+                    <a class="button" id="goto-transcript">Go to transcript</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <script type="text/javascript" src="https://momi.cgm616.me/js/bundle.js"></script>
+
+</body>
+</html>

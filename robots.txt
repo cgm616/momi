@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://momi.cgm616.me/sitemap.xml
