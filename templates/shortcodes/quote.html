@@ -13,7 +13,11 @@
         {% set minutes_str = "0" ~ minutes_str %}
     {% endif %}
     {% set hours_str = hours | round(method="floor") | as_str %}
+    {% if name is not containing("abe") %}
     {{ body | markdown | safe }}
+    {% else %}
+    <p>This transcript has been redacted.</p>
+    {% endif %}
     <p>― <a href="/transcripts/{{ name | lower }}/{% if anchor %}#{{ anchor | as_str }}{% endif %}">{{ name }}</a>, <em class="timestamp" millis="{{ millis }}" person="{{ name | lower }}">{{"(" ~ hours_str ~ ":" ~ minutes_str ~ 
         ":" ~ seconds_str ~ ")"}}</em></p>
 </blockquote>
